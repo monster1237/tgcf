@@ -1,8 +1,6 @@
-termux-info
-pkg update
-pkg upgrade
-pkg install libjpeg-turbo python micro -y
-pip install --upgrade pip wheel setuptools
-pip install --upgrade tgcf
+mkdir my-tgcf
+cd my-tgcf
+python3 -m venv .venv
+source .venv/bin/activate
+pip install tgcf
 tgcf --version
-tgcf --help
