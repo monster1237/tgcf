@@ -6,4 +6,4 @@ pip install --upgrade pip wheel setuptools
 pip install --upgrade tgcf
 tgcf --version
 tgcf --help
-web_ui
+tgcf-web
